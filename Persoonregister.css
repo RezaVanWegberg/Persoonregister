@@ -1,9 +1,18 @@
 #container {
-    max-width: 200px;
-    background-color: aqua;
     color: black;
+    background-color: blue;
     margin: 10px;
     padding: 20px;
     font-weight: 700;
     border: solid black;
+    grid-template-columns: auto auto auto;
+    display: grid;
+}
+
+div {
+
+    margin: 10px;
+    padding: 20px;
+    border: solid black;
+    background-color: aqua;
 }
